@@ -1,55 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.card_grid{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    justify-content: space-between;
-   gap: 30px;
-   width: 1200px;
-   flex-wrap: wrap;
-   margin: 0 auto;
-   justify-content: center;
-    
-}
-.carta{
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #F2F4F7;
-}
-.imgs{
-    margin: 0 auto;
-  padding: 15px;
-  max-width: 250px;
-    border-radius: 25px;
-}
-.imgs:hover{
-    transform: scale(1.03);
-    transition: all 1s;
-    border-radius: 0px;
-    cursor: pointer;
-}
-.cart_text{
-    display: flex;
-    padding: 5px;
-}
-.som{
-    background-color: yellow;
-    padding: 5px;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 11px;
-    width: 100px;
-}
-.del{
-    font-size: 12px;
+.products{
+    width: 232px;
+    height: 309px;
+    margin-bottom: 11px;
 
 }
-.border{
-    border-radius: 50px;
-    background: white;
-    border: 1px solid gray;
+.cards{
+    background-color: azure;
+    width: 232px;
+    margin: 20px;
+    padding-bottom: 20px;
+    
+}
+.cards h3{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.cards-sharh{
+    display: flex;
+}
+.cards-sharh p{
+    font-size: 11px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cards-sharh img{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cards-bolbt{
+    margin-left: 10px;
+    background-color: yellow;
+    padding: 5px;
+    font-size: 11px;
+}
+.skidka{
+    margin-top: 5px;
+    font-size: 12px;
+    opacity: 50%;
+    text-decoration: line-through;
+}
+.cards-skidka p{
+    font-size: 14px;
+    display: flex;
+}
+.cards-count{
+    display: flex;
+    gap: 10px;
+    
+}
+.cards-count button{
+    border: 1px solid black;
+}
+.cards-narx{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards-asosiy{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    position: relative;
+}
+.like-content{
+    position: absolute;
+    top: 30px;
+    right: 65px;
+}
+.like{
+    width: 30px;
+}
+.like-content img:hover{
+    cursor: pointer;
 }
