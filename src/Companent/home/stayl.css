@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1450px;
+}
 .products{
     width: 232px;
     height: 309px;
@@ -65,14 +74,100 @@
     grid-template-columns: auto auto auto auto auto;
     position: relative;
 }
-.like-content{
+.like-content img{
     position: absolute;
-    top: 30px;
-    right: 65px;
+    top: -520px;
+    right: 10px;
+}
+.like-content{
+    position: relative;
 }
 .like{
     width: 30px;
 }
 .like-content img:hover{
     cursor: pointer;
+}
+.search-inp{
+    padding: 5px 150px 5px 10px;
+    border-radius: 5px;
+}
+.search-div{
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 5px;
+}
+.cards-count button{
+    padding: 10px;
+    border-radius: 50px;
+} 
+.cards-count h2{
+    font-size: 30px;
+}
+.search-btn{
+    background-color: #F2F4F7;
+    padding: 10px 20px 10px 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.kirish-btn{
+    display: flex;
+    gap: 10px;
+}
+.like-btn{
+    display: flex;
+    gap: 10px;
+}
+.savat-btn{
+    display: flex;
+    gap: 10px;
+}
+.btn-div{
+    display: flex;
+    gap: 50px;
+}
+.logo-div{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+.savat-btnn{
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 10px;
+}
+.productss{
+    width: 100px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.delete-btn button{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.selected-product{
+    display: flex;
+}
+.selected-products{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.select-div{
+    width: 300px;
+}
+.delete-btnn{
+    border: 1px solid grey;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
 }
